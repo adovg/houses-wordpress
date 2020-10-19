@@ -1,53 +1,57 @@
+
+
 .header {
-	// background: url('../../build/img/start.png');
-	// background-size: cover;
-	// background-position: center;  Center the image 
- //  	background-repeat: no-repeat; /* Do not repeat the image */
- //  	background-size: 100%;
-  	color: #000;
-  	height: 93.5vh;
-  	overflow: hidden;
-    text-align: center;
-  	// height: 700px;
-}
-.naw {
-	font-size: 30px;
-}
-.header__about {
-	align-content: center;
-	text-align: center;
-	font-weight: bold;
-	font-size: 1.5rem;
+	//background: url('../../build/img/header-img.png');
+	height: 100vh;
+    background-size: cover;
+    background-position: center center; 
+   	background-repeat: no-repeat; /* Do not repeat the image */
+ 	padding-top: 150px;
+ 	//padding-left: 200px;
 }
 
-.header__img {
-	position: relative;
-	width: 100%; /* for IE 6 */
-	opacity: .3;
-		& img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-}
-
-.header__content {
-	position: absolute;
-	top: 42%;
-	left: 17%;
-	color: #000;
-	// display: flex;
-	// flex-direction: column;
-	// justify-content: center;
-	// align-content: center;
-	
-}
-.header__list {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
+.header__inner {
+	display: block;
+	margin-left: 240px;
 	text-align: center;
-	font-size: 20px;
+	//justify-content: center;
+	max-width: 506px;
+	height: 506px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: 10px solid $borderColor;
 }
+.header__logo {
+  width: 39px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.header__name {
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 35px;
+color: $nameColor;
+margin-bottom: 27px;
+}
+.header__phone {
+  // width: 307px;
+  // height: 37px;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+}
+.header__title {
+  //max-width: 417px;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: $titleColor;
+  margin: 45px 0px 45px 0px;
+  }
+.header__sale {}
 

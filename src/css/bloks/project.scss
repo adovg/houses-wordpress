@@ -1,0 +1,28 @@
+.project {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+.project__title {
+  font-family: 'Roboto';
+  font-size: 41px;
+  font-weight: bold;
+  margin-bottom: 115px;
+  color: $nameColor;
+}
+
+.project__item {
+margin-bottom: 30px;
+}
+.project__name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.project__size {}
+.project__area {}
+.project__price {
+  color: $priceColor;
+  margin-bottom: 30px;
+}
+.project__images {}
+.project__images-item {}

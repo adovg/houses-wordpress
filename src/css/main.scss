@@ -1,6 +1,7 @@
 @import 'reset.scss';
 @import 'media.scss';
 @import 'fonts';
+@import 'color.scss';
 
 * {
   margin: 0;
@@ -13,7 +14,8 @@ html {
 }
 
 body {
-  font-family: 'Roboto', 'Arial', sans-serif;
+  //font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -50,8 +52,9 @@ body {
 }
 
 @import 'bloks/header.scss';
-@import 'bloks/pictures.scss';
-@import 'bloks/user.scss';
-@import 'bloks/profile.scss';
+@import 'bloks/main-section.scss';
+@import 'bloks/project.scss';
+@import 'bloks/download.scss';
 @import 'bloks/gallery.scss';
+@import '../css/magnific-popup.css';
 @import 'bloks/footer.scss';

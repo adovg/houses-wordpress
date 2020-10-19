@@ -1,0 +1,34 @@
+.download {
+
+text-align: center;
+// background-color: $bgDownload;
+//margin-bottom: 40px;
+//min-height: 304px;
+// display: flex;
+// flex-direction: column;
+}
+.download__wrap {
+	background-color: $bgDownload;
+	display: block;
+	padding-bottom: 40px;
+}
+.download__img {
+	margin-top: 40px;
+}
+.download__btn {
+  display: block;
+  max-width: 594px;
+  border: solid 5px $buttomBorder;
+  background-color: $priceColor;
+  margin: 0 auto;
+ // margin-bottom: 40px;
+  	.button__txt {
+  		padding: 30px 40px 30px 40px;
+		color: $white;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+  	}
+}
